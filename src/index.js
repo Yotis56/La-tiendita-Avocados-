@@ -13,6 +13,7 @@
 //   })
 // })
 
+
 const BASE_URL = "https://platzi-avo.vercel.app"
 const container = document.querySelector('.contenido')
 const formatPrice = (price) => {
