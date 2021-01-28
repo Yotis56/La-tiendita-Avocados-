@@ -1,3 +1,20 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.contenido {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item-container {
+  width: 45%;
+  margin: 15px;
+  padding: 15px;
+}
+.item-container > div {
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  margin-bottom: auto;
+}
